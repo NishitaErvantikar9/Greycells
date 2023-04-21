@@ -3,6 +3,11 @@
 Hi Kaka!
 This repo contains all the codes, images and documents.
 So, basically I have created two versions: 
+
+|---|---|
+|   |   |   
+|   |   |   
+
 1. Same design. 
 2. A different UI to the same content available.
 
