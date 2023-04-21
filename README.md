@@ -11,7 +11,7 @@ So, basically I have created two versions:
 
 
 - Both are responsive. Both are done with basic HTML, CSS , Javascript and Bootstrap. No other libraries used.
-- Both are Full stack, that is a form on submission will go to any database we attach to. AWS is in our case. 
+- Both are Full stack, that is , the contact us form on submission will go to any database we attach to. AWS is in our case. 
 - Both are SEO friendly too.
 
 > Any changes in the second one, can be made according to what you like.
