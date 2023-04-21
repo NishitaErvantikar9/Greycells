@@ -3,7 +3,7 @@
 Hi Kaka!
 This repo contains all the codes, images and documents.
 So, basically I have created two versions: 
-
+|Same design   |  New Design |  
 |---|---|
 |   |   |   
 |   |   |   
