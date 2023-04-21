@@ -5,7 +5,7 @@ This repo contains all the codes, images and documents.
 So, basically I have created two versions: 
 |Same design   |  New Design |  
 |---|---|
-| <img width="949" alt="image" src="https://user-images.githubusercontent.com/120945994/233572373-80316aa8-2e67-4458-80d5-6b1181e3a714.png">  |   |   
+| <img width="450" height = "300" alt="image" src="https://user-images.githubusercontent.com/120945994/233572373-80316aa8-2e67-4458-80d5-6b1181e3a714.png">  |   |   
 |   |   |   
 
 
