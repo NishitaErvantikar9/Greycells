@@ -8,8 +8,7 @@ So, basically I have created two versions:
 |   |   |   
 |   |   |   
 
-1. Same design. 
-2. A different UI to the same content available.
+
 
 - Both are responsive. Both are done with basic HTML, CSS , Javascript and Bootstrap. No other libraries used.
 - Both are Full stack, that is a form on submission will go to any database we attach to. AWS is in our case. 
