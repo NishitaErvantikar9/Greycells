@@ -10,8 +10,8 @@ So, basically I have created two versions:
 - Both are Full stack, that is a form on submission will go to any database we attach to. AWS is in our case. 
 - Both are SEO friendly too.
 
-Any changes in the second one, can be made according to what you like.
-We can completely discard that as well. No problem at all.
-Just to explore the potential of greys .
+> Any changes in the second one, can be made according to what you like.
+> We can completely discard that as well. No problem at all.
+> Just to explore the potential of greys .
 
 Let me know if want to elevate it more with more scroll animations or any javascript animations. I am Here! we will do it.
