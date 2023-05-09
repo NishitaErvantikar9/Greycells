@@ -1,0 +1,105 @@
+
+
+.about{
+  background-color: #414141;
+  color:aliceblue;
+  padding-right: 175px;
+   
+  
+}
+
+.about .content{
+   text-align: justify;
+   padding: 50px;
+    padding-left: 175px;
+
+}
+
+.about .gif{
+  padding-top: 80px;
+  text-align:center;
+}
+
+
+
+.mynav{
+  background-color: #ffffff;
+}
+
+div.ServicesSection{
+  padding-right : 175px;
+  padding-left: 175px;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  
+}
+
+div.card{
+  background-color: #f2f3f4;
+  color:black;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width:500px) {
+
+  /* For mobile phones: */
+ 
+
+  .about .gif {
+    display: none;
+  }
+
+  div.ServicesSection {
+    padding: 40px;
+   
+  }
+  div.card{
+    margin-bottom: 40px;
+   
+  }
+  .about .content{
+    padding: 40px;
+  }
+  div.contact-section{
+    padding: 40px;
+  }
+}
+
+
+
+
+@media only screen and (max-width:800px) {
+
+  /* For tablets: */
+  .nav-text {
+    position: static;
+  }
+
+  i {
+    padding-left: 10px;
+  }
+
+  img.sign-up {
+    display: none;
+  }
+
+  h1.heading {
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 30px;
+  }
+
+  div.products {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+.contact-sec{
+  padding-right: 175px;
+  padding-left: 175px
+}
+
+div.card-content{
+ padding: 15px;
+}
