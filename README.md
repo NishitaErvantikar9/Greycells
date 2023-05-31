@@ -1,6 +1,7 @@
 # Greycells
 
 ## Preview
+<img src="./images/RPS.gif">
 ## Getting Started
 ## Overview
 ## Minor issues
