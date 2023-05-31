@@ -1,6 +1,6 @@
 # Greycells
 
-## preview
+## Preview
 ## Getting Started
 ## Overview
 ## Minor issues
