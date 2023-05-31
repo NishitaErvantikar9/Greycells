@@ -2,161 +2,216 @@
 <html>
 
 <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <!--   title -->
-    <title>Grey Cell Tech</title>
-    <!--   favicon -->
-    <link href="favicon.png" rel="shortcut icon">
-    <!--CSS Stylesheet-->
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <!--Bootstrap:css CDN-->
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-        crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/a353081e02.js" crossorigin="anonymous"></script>
+    <title>
+        <%= title %>
+    </title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/favicon.png">
+    <!-- CSS stylesheet -->
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
-    <script src="https://kit.fontawesome.com/a353081e02.js" crossorigin="anonymous"></script>
-    <!-- CSS only -->
+    <!-- Font awesome -->
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
 
 
 </head>
 
 <body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg mb-2 mt-2">
+    <div class="container">
+        <a class="navbar-brand" href="#"><img src="./images/logo.jpg"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contract">Contracts</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Services
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/devops">DevSecOps/DevOps</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="/application">Application Modernization</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="/drupal">Drupal Content Management</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="/datascience">Data Science and Analytics</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="/IT">Information Technology support Services</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="/agile">Agile Transformations</a></li>
 
-    <!--   navbar -->
-    <nav class="navbar navbar-light navbar-expand-md">
-        <div class="container-fluid">
-            <a class="navbar-brand logo" href="#"><img src="logofinal.jpg" height="200%" /></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasDarkNavbar"
-                aria-labelledby="offcanvasDarkNavbarLabel">
-                <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"><a class="navbar-brand logo" href="#"><img
-                                src="./images/logo.jpg" height="200%" /></a></h5>
-                    <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas"
-                        aria-label="Close"></button>
-                </div>
-                <div class="nav-ul offcanvas-body">
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/">About us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/contract.html">Contracts</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/customers.html">Customers</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/contact.html">Contact us</a>
-                        </li>
                     </ul>
-                </div>
-            </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/customers">Customers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact">Contact Us</a>
+                </li>
+            </ul>
+
         </div>
-    </nav>
-
-
-
-    <!--  About section-->
-    <div class="About-div">
-        <img src="about-img.jpg" alt="20years" width="100%">
-        <h1 class="about-h1">About Us</h1>
-
     </div>
+</nav>
+ 
+<!-- Image -->
+<div class="container-fluid" height="60vh">
+    <img src="./images/about.jpg">
+</div>
 
+<div class="container">
 
-
-
-    <section>
-        <div class="parent-abt row">
-            <div class="col-lg-5 col-sm-12 col-md-6 about-sec">
-                <img src="about-img2.png" alt="about-img" width="380px;">
-            </div>
-            <div class="content col-lg-7 col-sm-12 col-md-6">
-                <h1>Greycells Technologies</h1>
-                <p class="sec-p">Greycells Technologies has been a trusted Government partner and has provided
-                    innovative IT and data solutions to Federal agencies such as the Department of Homeland Security
-                    (DHS), White House Communication Agency (WHCA), DHS Cybersecurity and Infrastructure Security
-                    Agency(CISA), Executive Office of the President (EOP), Supreme Court of the United States (SCOTUS),
-                    United States Department of Agriculture (USDA), and United States Customs and Immigration Services
-                    (USCIS) and other Federal and Commercial customers. Greycells presents proven expertise in the
+        <div class="container pt-5 pr-8 pl-8 pb-5">
+            <p class="sec-p">Greycells Technologies has been a trusted Government partner and has provided
+                innovative IT and data solutions to Federal agencies such as the Department of Homeland Security
+                (DHS), White House Communication Agency (WHCA), DHS Cybersecurity and Infrastructure Security
+                Agency(CISA), Executive Office of the President (EOP), Supreme Court of the United States (SCOTUS),
+                United States Department of Agriculture (USDA), and United States Customs and Immigration Services
+                (USCIS) and other Federal and Commercial customers.</p>
+                <br>
+                <p> Greycells presents proven expertise in the
                     integration of technology innovations, systems, processes, capabilities and architectures to deliver
                     business solutions that promote and enhance the customer mission.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Items -->
-    <div class="Details-sec">
-        <div class="row">
-            <div class="col col-lg-6 col-md-6 col-sm-12">
-                <i class="fa fa-rocket"></i>
-                <h1 style="display: inline;">Our Mission</h1>
-                <p>Deliver technology solutions furthering the customer goals. Provide data insights for measuring
-                    results. Enable customer experience metrics management for proactive technology engagement in
-                    mission success.</p>
-            </div>
-            <div class="col col-lg-6 col-md-6 col-sm-12">
-                <i class="fa fa-bullseye"></i>
-                <h1 style="display:inline;">Our Vision</h1>
-                <p>Foster and support creativity, innovation and contributions of talented professionals, as one team,
-                    delivering business solutions aligned with emerging technologies to customers.</p>
-            </div>
-        </div>
-
-
-
-        <!--   Footer -->
-        <div class="footer1">
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <img src="iso.png">
-                    <br>
-                    <br>
-                    <img src="cmmi2.png">
-                    <br>
-                    <br>
-                    <p>Greycells Technologies has been a trusted Government partner and has provided innovative IT and
-                        data solutions to Federal agencies</p>
                 </div>
-                <div class=" list2 col-lg-4 col-md-4 col-sm-12" style="text-align:left;">
-                    <h4 class="pushed">Navigation</h4>
-                    <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/about">About Us</a></li>
-                        <li><a href="">Services</a></li>
-                        <li><a href="/contract">Contracts</a></li>
-                        <li><a href="/customers">Customers</a></li>
-                        <li><a href="/contact">Contact Us</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <h4>Contact Information</h4>
-                    <a>contracts@greycellstech.com</a>
+ 
+</div>
+
+          
+       
+
+<!-- Items -->
+<div class="Details-sec  container">
+    <div class="row ">
+        <div class="col-lg-6 mb-4">
+            <div class="card dc" style="max-width: 540px; height:200px;">
+                <div class="row g-0" style="padding:0;">
+                    <div class="col-md-4 col-4 col-lg-4 col-sm-4 text-center pt-8">
+                        <img style="width: 50%;" src="./images/mission.png"
+                            class="img-fluid rounded-start " alt="...">
+                    </div>
+                    <div class="col-md-8 col-8 col-lg-8 col-sm-8 text-center">
+                        <div class="icard card-body">
+                            <h5 class="card-title">Our Mission</h5>
+                            <p class="card-text pt-8">Deliver technology solutions furthering the customer goals. Provide
+                                data insights for measuring results. Enable customer experience metrics management for
+                                proactive technology engagement in mission success.</p>
+
+                        </div>
+                    </div>
                 </div>
             </div>
-            <hr>
-            <p style="text-align: center;">2020 ©Greycells Technologies. All rights reserved.</p>
         </div>
+        <div class="col-lg-6 mb-4">
+            <div class="card dc" style="max-width: 540px; height:200px;">
+                <div class="row g-0" style="padding:0;">
+                    <div class="col-md-4 col-4 col-lg-4 col-sm-4">
+                        <img style="width: 8vw; padding:3%;" src="./images/vision.png"
+                            class="img-fluid rounded-start pt-3" alt="...">
+                    </div>
+                    <div class="col-md-8 col-8 col-lg-8 col-sm-8">
+                        <div class="icard card-body">
+                            <h5 class="card-title">Our Vision</h5>
+                            <p class="card-text pt-3">Foster and support creativity, innovation and contributions of talented
+                                professionals, as one team, delivering business solutions aligned with emerging
+                                technologies to customers.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<div class="container-fluid foo ">
+    <div class="container">
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+            <div class="col-mb-3 col-lg-3 mb-3">
+                <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+                    <img src="./images/cmm.png">
+                </a>
+                <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+                    <img src="./images/iso.png">
+                </a>
+                <p style="text-align:left;">Greycells Technologies has been a trusted Government partner and has
+                    provided innovative IT and data solutions to
+                    Federal agencies</p>
+            </div>
+
+            <div class="col mb-2">
+
+            </div>
 
 
 
+            <div class="col mb-3">
+                <h5>Navigation</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="/" class="nav-link foo-link p-0 ">Home</a></li>
+                    <li class="nav-item mb-2"><a href="/about" class="nav-link  foo-link p-0 ">About Us</a></li>
+                    <li class="nav-item mb-2"><a href="#services" class="nav-link foo-link p-0 ">Services</a></li>
+                    <li class="nav-item mb-2"><a href="/contract" class="nav-link foo-link p-0 ">Contracts</a></li>
+                    <li class="nav-item mb-2"><a href="/customers" class="nav-link foo-link p-0 ">Customers</a></li>
+                    <li class="nav-item mb-2"><a href="/contact" class="nav-link foo-link p-0 ">Contact Us</a></li>
+                </ul>
+            </div>
 
+            <div class="col mb-4 ">
+                <h5>Contact Information </h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><span class="material-symbols-outlined">
+
+                        </span><a href="mailto:Contracts@greycellstech.com"
+                            class="nav-link p-0 foo-link">Contracts@greycellstech.com</a></li>
+                    <li class="nav-item mb-2"><a href="" class="nav-link p-0 foo-link"><span
+                                class="material-symbols-outlined">
+                                linkedin
+                            </span></a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </footer>
+        <hr>
+        <p style="text-align: center; padding-bottom: 2%;">2020 ©Greycells Technologies. All rights reserved.</p>
+    </div>
+</div>
 
 
         <!-- JavaScript Bundle with Popper -->
@@ -167,3 +222,34 @@
 </body>
 
 </html>
+
+
+<!-- 
+
+<div class="container">
+    <div class="row">
+        <div class="col col-sm-12 col-xs-12 col-md-6 col-lg-6">
+            <div class="card">
+                <div class="card-body">
+                    <i class="fas fa-user"></i>
+                    <h5 class="card-title">Our Mission</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col col-sm-12 col-xs-12 col-md-6 col-lg-6">
+            <div class="card">
+                <div class="card-body">
+                    <i class="fas fa-user"></i>
+                    <h5 class="card-title">Our Vision</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div> -->
