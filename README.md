@@ -3,7 +3,7 @@
 ## Preview
 
 ![image](https://github.com/NishitaErvantikar9/Greycells/blob/main/public/images/RPS.gif)
-![image](https://github.com/NishitaErvantikar9/Greycells/blob/main/public/images/RPS.gif)
+![image](https://github.com/NishitaErvantikar9/Greycells/blob/main/public/images/phone2.gif)
 
 
 ## Getting Started
