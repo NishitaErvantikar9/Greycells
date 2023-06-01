@@ -23,6 +23,12 @@ Almost everything is done except aws integration for which I can write post rout
 2. Linkedin says Greycells page does not exist.
 
 ## Further
+1. Let me know if fonts and their sizes are okay.
+2. I will try to being the logos for services section since it was glitching a lot when i did it, i just skipped the part for time being.
+3. Database Integreation and hosting is left!
+tada! Done 🥂
+
+
 ## To-do list
 ![image](https://github.com/NishitaErvantikar9/Greycells/assets/120945994/85ae271b-50a5-4c80-83c6-cd2e6f850d55)
 
