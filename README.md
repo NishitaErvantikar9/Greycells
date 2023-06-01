@@ -1,7 +1,9 @@
 # Greycells
 
 ## Preview
-<img src="./images/RPS.gif">
+
+![image](https://github.com/NishitaErvantikar9/Greycells/blob/main/public/images/RPS.gif)
+
 ## Getting Started
 ## Overview
 ## Minor issues
