@@ -4,6 +4,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
+<meta name="keywords" content="keyword1, keyword2, keyword3">
 <title>
     <%= title %>
 </title>
@@ -101,21 +102,21 @@
             <div class="carousel-item active">
                 <img src="./images/bg3.jpg" class="d-block w-100 img-fluid" alt="...">
                 <div class="carousel-caption typewriter  d-md-block text-start ">
-                    <h5>Modernize Your Applications for the Digital Age</h5>
+                    <h5 class="typing-animation first">Modernize Your Applications for the Digital Age</h5>
                     
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="./images/bg3.jpg" class="d-block w-100 img-fluid" alt="...">
                 <div class="carousel-caption  typewriter d-md-block text-start">
-                    <h5>Empower Your Business with Data Science Analytics Solutions</h5>
+                    <h5 class="typing-animation">Empower Your Business with Data Science Analytics Solutions</h5>
                     
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="./images/bg3.jpg" class="d-block w-100 img-fluid" alt="...">
                 <div class="carousel-caption typewriter  d-md-block text-start">
-                    <h5>Optimize Efficiency and Collaboration with DevOps Services</h5>
+                    <h5 class="typing-animation">Optimize Efficiency and Collaboration with DevOps Services</h5>
                     
                 </div>
             </div>
@@ -130,11 +131,11 @@
             <div class="heading mt-3" style="text-align:left;"><h2>Greycell Technologies</h2></div>
             <div class="row">
                 <div class="col-xs-12 col-md-8 col-lg-9 mt-4 content" >
-                    <p class="lead" style="font-size: 16px;">Greycells Technologies is a minority-owned company, committed to providing innovative technology solutions to our
+                    <p class="lead" style="font-size: 15px;">Greycells Technologies is a minority-owned company, committed to providing innovative technology solutions to our
                     federal and commercial customers by harnessing the power of information technology to improve mission performance.</p>
-                    <p class="lead"  style="font-size: 16px;">We are ISO 9001:2015 Registered, CMMIDEV /3 Appraised and our commitment to quality is exemplified in our establishment
+                    <p class="lead" style="font-size: 15px;" >We are ISO 9001:2015 Registered, CMMIDEV /3 Appraised and our commitment to quality is exemplified in our establishment
                     and execution of the organizations processes and our commitment to continuous improvement.</p>
-                    <p class="lead"  style="font-size: 16px;">Greycells is an industry thought leader with proven expertise in the integration of technological innovations, systems,
+                    <p class="lead" style="font-size: 15px;" >Greycells is an industry thought leader with proven expertise in the integration of technological innovations, systems,
                     processes, capabilities, and architectures to deliver business solutions that promote and enhance the missions of its
                     clients.</p>
                 </div>
@@ -158,8 +159,8 @@
                     <div class="card mb-1 h-100 bg">
                         <div class="card-body ">
                             <i class="bi bi-pc-display-horizontal"></i>
-                            <h5 class="card-title">Application Modernization</h5>
-                            <p class="card-text">GCT helps government agencies make the move away from aging, vulnerable IT infrastructures.
+                            <h5 class="card-title">DevSecOps/DevOps</h5>
+                            <p class="card-text">Our ASC subject matter experts (SMEs) are experienced in implementing state-of-the-art technical stacks
                             </p>
                             <a href="/devops" class="btn btn-outline-secondary btn-sm">Know more</a>
                         </div>
@@ -533,6 +534,15 @@
                     duration: 2000, // Duration of the animation (in milliseconds)
                     distance: '70px', // Distance the element moves while animating
                     origin: 'bottom', // Starting position of the animation
+                    easing: 'ease-in-out', // Easing function to use for the animation
+                    opacity: 0, // Starting opacity of the element
+                    // Starting scale of the element
+                });
+             ScrollReveal().reveal('.first', {
+                    delay: 800, // Delay before the animation starts (in milliseconds)
+                    duration: 2000, // Duration of the animation (in milliseconds)
+                    distance: '100px', // Distance the element moves while animating
+                    origin: 'left', // Starting position of the animation
                     easing: 'ease-in-out', // Easing function to use for the animation
                     opacity: 0, // Starting opacity of the element
                     // Starting scale of the element

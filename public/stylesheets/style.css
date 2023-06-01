@@ -20,22 +20,22 @@ body{
 }
 
 .carousel-caption h5 {
-    font-size: 70px;;
+    font-size: 55px;;
     /* Adjust the font size as needed */
     font-weight: bold;
     margin-bottom: 1rem;
     color: #96989a;
     text-align: left;
-    margin-right:30%;
+    margin-right:35%;
     translate:-15%
 
 }
-
 
 /* ABOUT US */
 p {
     text-align: justify;
 }
+
 .heading {
     padding-top: 2%;
     padding-bottom: 2%;
@@ -140,6 +140,42 @@ a.foo-link:hover {
     text-decoration: none;
     cursor: pointer;
 }
+/* ABOUT PAGE */
+.about-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.about-paragraph {
+    text-align: justify;
+    /* Change to 'center' for center alignment */
+    max-width: 80%;
+    font-size: 20px;
+}
+
+.about-page {
+    background-color: #e1e5ea;
+}
+
+.lalala {
+    background-color: #110f16;
+    color: #110f16;
+}
+
+/* Contracts page */
+.para {
+    font-size: 18px;
+}
+
+/* IT SERVICES PAGE */
+div.it{
+    background-color:#d9dfe3;
+}
+
+
 /* Media Queries */
 /* TABLETS */
 
@@ -172,12 +208,7 @@ a.foo-link:hover {
     .animation {
         display: none;
     }
-    .carousel-caption{
-        margin-top:20%;
-        margin-bottom: 30%;
-        font-size: 20px;
-        padding-right: 5%;;
-    }
+    
       
 }
 
@@ -199,10 +230,14 @@ a.foo-link:hover {
 
 }
 
+
+
+
+
 /* PHONES */
 @media screen and (max-width: 550px) {
     p {
-        font-size: 13px;
+        font-size: 14px;
     }
 
     .about {
@@ -242,15 +277,30 @@ a.foo-link:hover {
         padding-left: 3%;
         padding-right: 3%;
     }
-    .carousel-caption h5{
-        padding-top:10px;
+
+    .carousel-caption h5 {
+        padding-top: 10px;
         font-size: smaller;
-        text-align:left;
-        
+        text-align: left;
+
     }
-    .carousel-caption{
-        top:0%;
-        bottom: 0%;
+
+    .carousel-caption h5 {
+        font-size: 20px;
+    }
+
+    .carousel-caption {
+        position: absolute;
+        top: 30%;
+        transform: translateY(-10%);
+
+    }
+    .para{
+        font-size:15px;
+    }
+    .lead {
+            font-size: 10px;
+            padding:2%;
     }
     
 }
