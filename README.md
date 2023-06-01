@@ -27,3 +27,10 @@ Almost everything is done except aws integration for which I can write post rout
 
 ## Further
 ## To-do list
+## Preview Desktop
+
+![image](https://github.com/NishitaErvantikar9/Greycells/blob/main/public/images/RPS.gif)
+
+## Preview Phone
+![image](https://github.com/NishitaErvantikar9/Greycells/blob/main/public/images/phone2.gif)
+
