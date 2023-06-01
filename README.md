@@ -24,6 +24,7 @@ Almost everything is done except aws integration for which I can write post rout
 
 ## Further
 ## To-do list
+![image](https://github.com/NishitaErvantikar9/Greycells/assets/120945994/85ae271b-50a5-4c80-83c6-cd2e6f850d55)
 
 
 
